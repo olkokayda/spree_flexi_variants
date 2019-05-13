@@ -1,6 +1,6 @@
-# SpreeFlexiVariants
+# SpreeFlexiVariants (Rails 5, Ruby 2.5, Spree 3.7)
 
-Master branch for Spree 3.3.0+ Read version notes for details.
+Master branch for Spree 3.7.0+ Read version notes for details.
 
 This is a [spree](http://spreecommerce.com) extension that solves two use cases related to variants. I call them **Ad Hoc Options** and **Product Customizations**.
 
@@ -16,6 +16,8 @@ Use these when you want the ability to provide a highly customized product e.g. 
 
 ## Version Notes
 
+The branch spree-3-7 version for spree 3.7.x
+
 The branch spree-3-3 version for spree 3.3.0
 
 The branch spree-3-2 version for spree 3.2.0
@@ -30,7 +32,7 @@ Working with a older spree? Check out the original gem or one of the many forks.
 
 ### See the notes in Versionfile if you are using an older version of spree
 
-`gem 'spree_flexi_variants', github: 'QuintinAdam/spree_flexi_variants', branch: 'spree-3-3'`
+`gem 'spree_flexi_variants', github: 'suratpyari/spree_flexi_variants', branch: 'spree-3-3'`
 
 `bundle install`
 

@@ -1,4 +1,4 @@
-class NamespaceFlexiVariantsTables < ActiveRecord::Migration
+class NamespaceFlexiVariantsTables < ActiveRecord::Migration[5.2]
   def up
     rename_table :ad_hoc_option_types,              :spree_ad_hoc_option_types
     rename_table :ad_hoc_option_values,             :spree_ad_hoc_option_values

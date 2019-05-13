@@ -1,4 +1,4 @@
-class CreateCustomizedProductOptions < ActiveRecord::Migration
+class CreateCustomizedProductOptions < ActiveRecord::Migration[5.2]
   def self.up
     create_table :customized_product_options do |t|
       t.integer :product_customization_id

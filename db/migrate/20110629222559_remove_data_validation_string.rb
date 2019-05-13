@@ -1,4 +1,4 @@
-class RemoveDataValidationString < ActiveRecord::Migration
+class RemoveDataValidationString < ActiveRecord::Migration[5.2]
   def self.up
 	 remove_column :customizable_product_options, :data_validation
   end
