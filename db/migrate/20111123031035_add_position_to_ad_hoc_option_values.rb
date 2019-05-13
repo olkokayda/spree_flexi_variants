@@ -1,4 +1,4 @@
-class AddPositionToAdHocOptionValues < ActiveRecord::Migration[5.2]
+class AddPositionToAdHocOptionValues < ActiveRecord::Migration
   def self.up
     add_column :ad_hoc_option_values, :position, :integer
   end

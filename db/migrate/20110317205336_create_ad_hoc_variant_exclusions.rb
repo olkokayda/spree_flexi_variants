@@ -1,4 +1,4 @@
-class CreateAdHocVariantExclusions < ActiveRecord::Migration[5.2]
+class CreateAdHocVariantExclusions < ActiveRecord::Migration
   def self.up
     create_table :ad_hoc_variant_exclusions do |t|
       t.integer :product_id

@@ -1,4 +1,4 @@
-class AddIdToAdHocOptionValuesLineItems < ActiveRecord::Migration[5.2]
+class AddIdToAdHocOptionValuesLineItems < ActiveRecord::Migration
   def self.up
     drop_table :ad_hoc_option_values_line_items
 

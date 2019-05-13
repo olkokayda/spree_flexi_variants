@@ -1,4 +1,4 @@
-class CreateProductCustomizations < ActiveRecord::Migration[5.2]
+class CreateProductCustomizations < ActiveRecord::Migration
   def self.up
     create_table :product_customizations do |t|
       t.integer :line_item_id

@@ -1,4 +1,4 @@
-class CreateExcludedAdHocOptionValues < ActiveRecord::Migration[5.2]
+class CreateExcludedAdHocOptionValues < ActiveRecord::Migration
   def self.up
     create_table :excluded_ad_hoc_option_values do |t|
       t.integer :ad_hoc_variant_exclusion_id

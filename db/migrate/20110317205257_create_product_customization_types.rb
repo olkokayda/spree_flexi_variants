@@ -1,4 +1,4 @@
-class CreateProductCustomizationTypes < ActiveRecord::Migration[5.2]
+class CreateProductCustomizationTypes < ActiveRecord::Migration
   def self.up
     create_table :product_customization_types do |t|
       t.string :name

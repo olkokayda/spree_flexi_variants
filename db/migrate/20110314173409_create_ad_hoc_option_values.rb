@@ -1,4 +1,4 @@
-class CreateAdHocOptionValues < ActiveRecord::Migration[5.2]
+class CreateAdHocOptionValues < ActiveRecord::Migration
   def self.up
     create_table :ad_hoc_option_values do |t|
       t.integer :ad_hoc_option_type_id

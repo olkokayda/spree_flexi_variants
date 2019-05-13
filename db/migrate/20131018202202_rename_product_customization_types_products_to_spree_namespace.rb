@@ -1,4 +1,4 @@
-class RenameProductCustomizationTypesProductsToSpreeNamespace < ActiveRecord::Migration[5.2]
+class RenameProductCustomizationTypesProductsToSpreeNamespace < ActiveRecord::Migration
   def change
     rename_table :product_customization_types_products, :spree_product_customization_types_products
   end
