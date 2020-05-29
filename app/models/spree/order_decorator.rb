@@ -1,4 +1,4 @@
-module Spree
+module Spree::OrderDecorator
   Order.class_eval do
     # FIXTHIS this is exactly the same it seems as Order Content add to line item.
     #this whole thing needs a refactor!
